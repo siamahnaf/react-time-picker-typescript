@@ -1,0 +1,60 @@
+{
+  "name": "react-time-picker-typescript",
+  "version": "1.2.3",
+  "description": "A simple react time picker ios style component🤷",
+  "homepage": "https://github.com/siamahnaf/react-time-picker-typescript",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": {
+    "name": "Siam Ahnaf",
+    "email": "mail@siamahnaf.com",
+    "url": "https://www.siamahnaf.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "react time picker",
+    "time picker",
+    "react time",
+    "pickertime",
+    "pickerios",
+    "time pickertime",
+    "picker react"
+  ],
+  "repository": {
+    "type": "git",
+    "directory": "https://github.com/siamahnaf/react-time-picker-typescript",
+    "url": "https://github.com/siamahnaf/react-time-picker-typescript"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "@types/react-portal": "^4.0.4",
+    "react-portal": "^4.2.2",
+    "tiny-warning": "^1.0.3"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-terser": "^0.4.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/react": "^18.0.28",
+    "@types/rollup-plugin-peer-deps-external": "^2.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^3.17.3",
+    "rollup-plugin-dts": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.5"
+  }
+}
