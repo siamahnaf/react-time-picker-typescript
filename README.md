@@ -1,14 +1,14 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://res.cloudinary.com/dub0dpenl/image/upload/v1731780157/Personal%20Logo/logo-white_e6fujz.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://res.cloudinary.com/dub0dpenl/image/upload/v1731780152/Personal%20Logo/logo-dark_qqwrqu.png">
-  <img alt="Siam Ahnaf" src="https://res.cloudinary.com/dub0dpenl/image/upload/v1731780152/Personal%20Logo/logo-dark_qqwrqu.png" height="auto" width="240">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/logo/logo-white.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/logo/logo-black.png">
+  <img alt="Siam Ahnaf" src="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/logo/logo-black.png" height="auto" width="240">
 </picture>
 
 [![npm](https://img.shields.io/npm/v/react-ios-time-picker)](https://www.npmjs.com/package/react-ios-time-picker) ![downloads](https://img.shields.io/npm/dt/react-ios-time-picker?color=blue&logo=npm&logoColor=blue)
 
 # React ios time picker Typescript
 
-![React-ios-time-picker demo](https://res.cloudinary.com/emdpro/image/upload/v1661245249/demo_bcmzme.gif)
+![React-ios-time-picker demo](https://raw.githubusercontent.com/siamahnaf/assets-kit/main/screenshots/time-picker-3.gif)
 
 > This is a fork of <a href="https://www.npmjs.com/package/react-ios-time-picker?activeTab=readme" target="_blank">react-ios-time-picker</a> adding typescript support and fixing nextjs implementation!
 
@@ -29,7 +29,7 @@ npm install react-time-picker-typescript
 
 ### 24 hours format
 
-![24 hours format](https://res.cloudinary.com/emdpro/image/upload/v1661245289/24Hours_xbooc1.png)
+![24 hours format](https://raw.githubusercontent.com/siamahnaf/assets-kit/main/screenshots/time-picker-2.png)
 
 ```js
 import React, { useState } from 'react';
@@ -53,7 +53,7 @@ export default const  MyApp = () => {
 
 ### 12 hours format
 
-![12 hours format](https://res.cloudinary.com/emdpro/image/upload/v1661245282/12Hours_tqf8gc.png)
+![12 hours format](https://raw.githubusercontent.com/siamahnaf/assets-kit/main/screenshots/time-picker-1.png)
 
 ```js
 import React, { useState } from 'react';
@@ -101,15 +101,20 @@ export default const  MyApp = () => {
 | onAmPmChange       | `(value) => alert('Am/Pm changed : value')`   | n/a            | called when select an am/pm value                               |
 | onOpen             | `() => alert('time picker opened')`           | n/a            | called when time picker is opened                               |
 
-## Stay in touch
+## Connect with me
+<div style="display: flex; align-items: center; gap: 3px;">
+<a href="https://wa.me/8801611994403"><img src="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/icons/whatsapp.png" width="40" height="40"></a>
+<a href="https://siamahnaf.com/" style="margin-right: 8px"><img src="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/icons/web.png" width="40" height="40"></a>
+<a href="https://www.linkedin.com/in/siamahnaf/" style="margin-right: 8px"><img src="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/icons/linkedin.png" width="40" height="40"></a>
+<a href="https://x.com/siamahnaf198" style="margin-right: 8px"><img src="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/icons/x.png" width="40" height="40"></a>
+<a href="https://www.facebook.com/siamahnaf198/" style="margin-right: 8px"><img src="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/icons/facebook.png" width="40" height="40"></a>
+<a href="https://t.me/siamahnaf198" style="margin-right: 8px"><img src="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/icons/telegram.png" width="40" height="40"></a>
+<a href="https://www.npmjs.com/~siamahnaf" style="margin-right: 8px"><img src="https://raw.githubusercontent.com/siamahnaf/assets-kit/main/icons/npm.png" width="40" height="40"></a>
+</div>
 
-- Author - [Siam Ahnaf](https://www.siamahnaf.com/)
-- Website - [https://www.siamahnaf.com/](https://www.siamahnaf.com/)
-- Twitter - [https://twitter.com/siamahnaf198](https://twitter.com/siamahnaf198)
-- Github - [https://github.com/siamahnaf](https://github.com/siamahnaf)
 
-## License
+------------
 
-The MIT License.
+<p align="center" color="red"><a href="https://www.siamahnaf.com/">www.siamahnaf.com</a></p>
 
 

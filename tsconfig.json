@@ -1,26 +1,25 @@
 {
   "compilerOptions": {
     "target": "ES2022",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
     "strict": true,
     "skipLibCheck": true,
-    // Added
-    "jsx": "react-jsx",
-    "module": "ESNext",
-    "declaration": true,
-    "declarationDir": "types",
-    "sourceMap": true,
-    "outDir": "dist",
-    "moduleResolution": "node",
+    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "emitDeclarationOnly": true
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "declarationDir": "dist/esm/types"
   },
-  "include": [
-    "**/*"
+  "files": [
+    "index.js"
   ],
   "exclude": [
-    "dist",
-    "types"
+    "node_modules",
+    "dist"
   ]
 }
